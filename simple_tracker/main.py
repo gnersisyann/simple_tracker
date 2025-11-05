@@ -1,7 +1,7 @@
-from tracker import Tracker
+from .tracker import Tracker
 import time
 
-f = open("../config/config.txt","r")
+f = open("config/config.txt","r")
 interval = int(f.readline().split("=")[1].strip())
 print(interval)
 f.close()
