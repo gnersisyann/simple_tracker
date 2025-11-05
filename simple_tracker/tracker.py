@@ -7,3 +7,5 @@ class Tracker:
 		f.write(str(self.count))
 	def __str__(self):
 		return (f"Current count: {self.count}")
+	def reset(self):
+		self.count = 0
