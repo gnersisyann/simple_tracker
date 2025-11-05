@@ -1,2 +1,1 @@
-Garnik Nersisyan
-Simple tracker
+Garnik Nersisyan | Simple tracker
